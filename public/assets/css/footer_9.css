@@ -1,0 +1,111 @@
+.footer-container {
+  background-color: #101828;
+  height: auto;
+  padding: 40px 0;
+}
+.footer-content-container {
+  padding: 0 60px;
+}
+.footer-left-main div:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer-left-secondary {
+  margin-top: 40px;
+}
+.footer-left-secondary h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+.footer-left-secondary p {
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 20px;
+  margin-top: 12px;
+}
+.footer-mail-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.email-input {
+  background-color: transparent;
+  border: 1px solid hsla(0, 0%, 100%, 0.7);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  height: 44px;
+  padding-left: 12px;
+  width: 296px;
+}
+.subscribe-btn {
+  background: #23c26a;
+  border: none;
+  border-radius: 6.4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  margin-left: 10px;
+  width: 130px;
+}
+.line {
+  width: 1px;
+  height: 38px;
+  background-color: gray;
+  margin: 0 10px;
+}
+.footer-heading {
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 20px;
+}
+
+.footer-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.footer-right ul {
+  list-style-type: none;
+}
+.footer-right h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer-right li {
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer-bottom div:nth-child(1) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+/* Media Query */
+@media (max-width: 576px) {
+  .footer-content-container {
+    padding: 0 10px;
+  }
+  .footer-bottom div:nth-child(1) {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .footer-icons i {
+    padding: 0 20px;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}

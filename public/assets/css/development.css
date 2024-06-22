@@ -1,0 +1,163 @@
+:root {
+  --background-color-section2: #dcf7d7;
+  --background-color-secondaryContainer: white;
+  --text-color-section2-heading: black;
+  --navBar-background-color: #192c3d;
+  --border-color: rgb(139, 138, 138);
+  --text-color: white;
+  --button-background: #23c26a;
+  --icon-color: #28a745;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.development-container {
+  background: url("../images/developmentImage/download4.png");
+  height: auto;
+  padding-bottom: 60px;
+}
+.development-box {
+  margin-top: 60px;
+}
+.development-content-box {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 50px 0 rgba(7, 98, 47, 0.1);
+  border-radius: 20px;
+}
+.development-custom-card {
+  background: none;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.custom-card-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.card-image {
+  margin-right: 20px;
+}
+
+.card-image img {
+  max-width: 100px;
+  height: auto;
+}
+
+.card-text h3 {
+  color: #101828;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card-text p {
+  color: rgba(14, 31, 46, 0.7);
+  font-size: 18px;
+  margin-top: 10px;
+  max-width: 94%;
+}
+/*  */
+@media (max-width: 1200px) {
+  .development-container h1 {
+    font-size: 2.5rem; /* Adjust font size */
+  }
+
+  .card-text h3 {
+    font-size: 24px;
+  }
+
+  .card-text p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 992px) {
+  .development-container h1 {
+    font-size: 2rem; /* Adjust font size */
+  }
+
+  .card-text h3 {
+    font-size: 22px;
+  }
+
+  .card-text p {
+    font-size: 15px;
+  }
+
+  .development-custom-card {
+    margin-bottom: 15px; /* Adjust space for medium screens */
+  }
+  .development-content-box {
+    padding: 15px; /* Adjust padding */
+  }
+}
+
+@media (max-width: 768px) {
+  .development-container h1 {
+    font-size: 1.8rem; /* Adjust font size */
+  }
+
+  .card-text h3 {
+    font-size: 20px;
+  }
+
+  .card-text p {
+    font-size: 14px;
+  }
+
+  .development-custom-card {
+    margin-bottom: 10px; /* Adjust space for small screens */
+  }
+
+  .development-content-box {
+    padding: 10px; /* Adjust padding */
+  }
+
+  .custom-card-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-image {
+    margin-bottom: 10px; /* Add space below image */
+  }
+}
+
+@media (max-width: 576px) {
+  .development-container h1 {
+    font-size: 1.5rem; /* Adjust font size */
+  }
+
+  .card-text h3 {
+    font-size: 18px;
+  }
+
+  .card-text p {
+    font-size: 13px;
+  }
+
+  .development-custom-card {
+    margin-bottom: 10px; /* Adjust space for extra small screens */
+  }
+
+  .development-content-box {
+    padding: 5px; /* Adjust padding */
+  }
+
+  .custom-card-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-image {
+    margin-bottom: 10px; /* Add space below image */
+  }
+}

@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.engage-developer-container {
+  background: url("../images/techAssetsImage/backgroundImage.png");
+  padding: 20px 60px;
+  height: auto;
+}
+
+.heading {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  padding: 60px 0;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.custom-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.custom-card img {
+  width: 60px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: -30px;
+}
+
+.custom-card h3 {
+  color: #23c26a;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  padding-left: 28px;
+}
+
+.custom-card ul {
+  list-style-type: circle;
+  padding: 0 0 0 20px;
+  text-align: left;
+}
+
+.custom-card ul li {
+  margin-bottom: 10px;
+}
+
+.button-container {
+  margin-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button {
+  background-color: #23c26a;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 992px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading {
+    font-size: 24px;
+  }
+}

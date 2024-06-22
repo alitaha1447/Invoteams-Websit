@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.developmentJourney {
+  background: url("../../assets/images/homePageImage/hero-background.png");
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  padding: 20px 40px;
+  /* margin: 40px; */
+}
+@media (max-width: 992px) {
+  .developmentJourney {
+    background: url("../../assets/images/homePageImage/hero-background.png");
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    padding: 20px 60px 0;
+  }
+}
+@media (max-width: 768px) {
+  .developmentJourney {
+    background: url("../../assets/images/homePageImage/hero-background.png");
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 576px) {
+  .developmentJourney {
+    background: url("../../assets/images/homePageImage/hero-background.png");
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+  }
+}

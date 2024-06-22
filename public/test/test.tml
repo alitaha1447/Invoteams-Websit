@@ -1,0 +1,22 @@
+<div class="accordion mt-3" id="accordionExample3">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne3">
+            <button class="accordion-button custom-accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne3" aria-expanded="false" aria-controls="collapseOne3">
+              <span>What are the contract terms and durations?</span>
+              <div class="questionPlus">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </button>
+          </h2>
+          <div id="collapseOne3" class="accordion-collapse collapse" aria-labelledby="headingOne3"
+            data-bs-parent="#accordionExample3">
+            <div class="accordion-body">
+              <p>
+                Our terms and durations are flexible to accommodate your project needs. Whether you require short-term
+                engagements for fixed gigs or long-term dedicated teams, we can tailor our contract accordingly.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>

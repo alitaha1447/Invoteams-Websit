@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #0e1f2e;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 15px;
+}
+.offcanvasBody {
+  margin: 0 auto;
+}
+.offcanvasBody ul li {
+  margin: 15px 0;
+}
+.offcanvas-link {
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.offcanvas {
+  width: 100% !important;
+  background-color: #0e1f2e;
+}
+.offcanvas-navbar-button {
+  background-color: #23c26a;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  height: 44px;
+  padding: 0 18px;
+}

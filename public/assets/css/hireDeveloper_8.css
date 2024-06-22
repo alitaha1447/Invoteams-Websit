@@ -1,0 +1,123 @@
+.hire-developer {
+  background: linear-gradient(269deg, #101828, #185c36 119.51%);
+  height: auto;
+  padding: 20px 60px;
+}
+
+.hire-developer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hire-text h2 {
+  color: #fff;
+  font-size: 3vw; /* Changed to responsive units */
+  font-weight: 600;
+}
+
+.hire-text p {
+  color: #fff;
+  font-size: 1.5vw; /* Changed to responsive units */
+}
+
+.hire-btn button {
+  background: #23c26a;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5vw; /* Changed to responsive units */
+  font-weight: 600;
+  height: 56px;
+  width: 180px;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 1200px) {
+  .hire-text h2 {
+    font-size: 4vw;
+  }
+
+  .hire-text p {
+    font-size: 2vw;
+  }
+
+  .hire-btn button {
+    font-size: 1.8vw;
+    width: 160px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hire-developer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column;
+    text-align: center; */
+  }
+
+  .hire-text h2 {
+    font-size: 4vw;
+  }
+
+  .hire-text p {
+    font-size: 2vw;
+  }
+
+  .hire-btn button {
+    font-size: 2vw;
+    width: 150px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hire-developer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .hire-text h2 {
+    font-size: 4vw;
+  }
+
+  .hire-text p {
+    font-size: 2vw;
+  }
+
+  .hire-btn button {
+    font-size: 2.5vw;
+    width: 140px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hire-developer-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .hire-text h2 {
+    font-size: 6vw;
+    text-align: center;
+  }
+
+  .hire-text p {
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  .hire-btn button {
+    font-size: 3vw;
+    width: 130px;
+    height: 35px;
+  }
+}
